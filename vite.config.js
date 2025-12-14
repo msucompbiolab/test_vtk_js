@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/test_vtk_js/',  // Match your repository name
   plugins: [
     vue(),
     vueDevTools(),
